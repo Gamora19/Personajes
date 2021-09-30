@@ -1,0 +1,232 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color:white;
+    position: fixed;
+    font-size: 28px;
+    font-family: serif;
+ }
+ .img-logo{
+
+    height: 100px;
+    margin: left 3px;
+   
+    margin-top: -23px;
+
+ }
+ 
+ .menu ul {
+
+    display: flex;
+    list-style: none;
+
+
+ }
+
+ .menu li a {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+
+ }
+
+ .menu ul li a:hover{
+
+    color: rgb(15, 61, 160);
+
+ }
+
+ main{
+
+    position: relative;
+    top: 70px;
+
+ }
+
+ .gallery-container{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65vh;
+ }
+
+ div.gallery-container div.gallery-items{
+        
+    flex: 1;
+    height: 100%;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: flex 0.5s ease-in-out;
+    
+ }
+
+ div.gallery-items span{
+
+    color: rgb(9, 39, 206);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 8px;
+    background-color:thistle;
+    opacity: 0.8;
+    transition: opacity 0.8s ease;
+    border-radius: 5px;
+
+ }
+
+ div.gallery-container div.gallery-items:hover span{
+
+    opacity: 0;
+ }
+
+ .gallery-container .gallery-items:hover{
+
+   flex: 2; 
+ }
+
+ .gallery-container .gallery-items.g-items-1{
+   background-image: url(../imagenes/apolonia.jpeg);
+
+}
+.gallery-container .gallery-items.g-items-2{
+   background-image: url(../imagenes/nelson.jpeg);
+
+}
+.gallery-container .gallery-items.g-items-3{
+   background-image: url(../imagenes/gandi.jpeg);
+
+}
+.gallery-container .gallery-items.g-items-4{
+   background-image: url(../imagenes/WhatsApp\ Image\ 2021-09-23\ at\ 5.59.37\ PM.jpeg);
+
+}
+.gallery-container .gallery-items.g-items-5{
+   background-image: url(../imagenes/stanly.jpeg);
+
+}
+
+.information{
+
+   display: flex;
+   justify-content:center;
+   text-align: center;
+   justify-content:flex-end;
+   padding: 150px;
+   flex-direction: column;
+  
+
+
+}
+
+.information p{
+   color: rgb(19, 17, 17);
+   max-width: 60%;
+   background-color: rgba(31, 140, 165, 0.494);
+   font-family:'Times New Roman', Times, serif;
+   display: inline-block;
+   
+   font-size: 28px;
+   padding-left: auto;
+   line-height: 28px;
+   
+   
+  
+}
+
+.information img{
+   max-width: 50%;
+   height: 80;
+   padding: 0;
+   display: inline-flex;
+}
+
+.titulosection1{
+
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+   font-family: fantasy;
+   align-items: flex-start;
+   background-color: rgba(255, 255, 255, 0.398);
+   padding: 10px 30px;
+   margin: 0 auto;
+   display: flex;
+   border: 2px solid rgb(11, 16, 181);
+   justify-content: center;
+
+}
+
+
+
+
+.titulosection2{
+
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+   font-family: fantasy;
+   align-items: flex-start;
+   background-color: rgba(255, 255, 255, 0.398);
+   padding: 10px 30px;
+   margin: 0 500px 0 500px;
+   display: flex;
+   border: 2.5px solid rgb(11, 16, 181);
+   justify-content: center;
+   left: 120px;
+   right: 10px;
+   
+  
+}
+
+.information2{
+
+   align-content: center;
+   text-align: center;
+   align-content: center;
+   display: block;
+
+   
+
+}
+
+
+.final {
+
+   background-color: black;
+   min-height: 100px;
+   margin-top: 100px;
+
+ }
+
+ .final p{
+
+    text-align: center;
+    font-weight: 400;
+    color: rgb(130, 14, 14);
+
+ }
+ .frase{
+
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+
+ }
